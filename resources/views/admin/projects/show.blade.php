@@ -7,17 +7,20 @@
    <div class="row g-5">
     <div class="col-12">
         <p>
-            <strong>Descrizione:</strong>{{$project->description}}<br>
+            <strong>Descrizione:</strong><br>
+            {{$project->description}}
         </p>
     </div>
     <div class="col-4">
         <p>
-            <strong>Slug:</strong>{{$project->slug}}<br>
+            <strong>Slug:</strong><br>
+            {{$project->slug}}
         </p>
     </div>
     <div class="col-4">
         <p>
-            <strong>Link:</strong>{{$project->url}}<br>
+            <strong>Link:</strong><br>
+            {{$project->url}}
         </p>
     </div>
    </div>
